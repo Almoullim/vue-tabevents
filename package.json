@@ -1,0 +1,45 @@
+{
+	"name": "vue-tabevents",
+	"version": "1.1.0",
+	"description": "Easy communication between tabs for Vue 2.x",
+	"main": "dist/vue-tabevents.cjs.js",
+	"module": "dist/vue-tabevents.es.js",
+	"files": [
+		"dist",
+		"src"
+	],
+	"scripts": {
+		"bundle": "bili",
+		"dev": "poi",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/almoullim/vue-tabevents"
+	},
+	"keywords": [
+		"VueJS",
+		"events",
+		"plugin",
+		"tabs",
+		"vue"
+	],
+	"author": {
+		"name": "Ali Almoullim",
+		"email": "Ali@Almoullim.com"
+	},
+	"license": "MIT",
+	"poi": {
+		"entry": "dev/main.js",
+		"dist": "dev/dist",
+		"homepage": "./",
+		"html": {
+			"template": "dev/index.html"
+		}
+	},
+	"devDependencies": {
+		"bili": "^2.2.7",
+		"poi": "^9.6.13",
+		"rollup-plugin-vue": "^3.0.0"
+	}
+}
