@@ -7,7 +7,7 @@
 
 Easy communication between tabs for Vue 2.x
 
-<!-- ![Basic Screenshot](README/images/vue-good-wizard.gif) -->
+![Basic Screenshot](README/images/demo.gif)
 
 ## Getting Started
 
@@ -28,10 +28,10 @@ import vueTabevents from 'vue-tabevents';
 Vue.use(vueTabevents);
 ```
 
-<!--
-## Example Usage
+<!-- ## Example Usage
 
 ```html
+
 
 ``` -->
 
