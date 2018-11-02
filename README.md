@@ -28,12 +28,34 @@ import vueTabevents from 'vue-tabevents';
 Vue.use(vueTabevents);
 ```
 
-<!-- ## Example Usage
+## Usage
 
-```html
+To an emit event to other tabs
 
+```
+this.$tabEvent.emit('eventName');
 
-``` -->
+const data = {
+	name: 'Ali'
+	phone: 123
+}
+
+this.$tabEvent.emit('eventName', data);
+```
+
+To listen for events emitted by other types
+
+```
+this.$tabEvent.on('eventName', callback);
+
+this.$tabEvent.on('eventName', (data) => console.log(data));
+```
+
+To stop listening to an event
+
+```
+this.$tabEvent.off('eventName');
+```
 
 ## Authors
 
