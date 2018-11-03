@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <button @click="toggle">Hide/Show</button>
-    <h1 v-if="show">Hello</h1>
-  </div>
+	<div>
+		<button @click="toggle">Hide/Show</button>
+		<h1 v-if="show">Hello</h1>
+	</div>
 </template>
 
 <script>
