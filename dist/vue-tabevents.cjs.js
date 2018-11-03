@@ -1,5 +1,5 @@
 /**
- * vue-tabevents v1.1.0
+ * vue-tabevents v1.2.0
  * https://github.com/almoullim/vue-tabevents
  * Released under the MIT License.
  */
