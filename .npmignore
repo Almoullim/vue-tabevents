@@ -1,4 +1,6 @@
 .babelrc
+.travis.yml
+.jest.config.js
 .editorconfig
 .eslintrc.js
 .eslintignore
