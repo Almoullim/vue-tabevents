@@ -30,7 +30,7 @@ const vueTabEvents = {
           } else if (e.key == 'eventWithData') {
             const ev = e.newValue.split('!@#$%')
             if (ev[0] === event) {
-              if (Vue.IsJsonString(ev[1])) return callback(JSON.parse(ev[1]))
+              if (Vue.prototype.$IsJsonString(ev[1])) return callback(JSON.parse(ev[1]))
               else return callback(ev[1])
             }
           }
